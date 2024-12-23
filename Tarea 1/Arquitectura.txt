@@ -1,0 +1,64 @@
+https://drive.google.com/file/d/1NYPAcHAtC8mEh5CPI1nDQhTVrNzp8ABI/view?usp=drive_link
+
+1.	WAF (Web Application Firewall):
+•	Protege la aplicación contra ataques web comunes
+•	Filtra y monitorea el tráfico HTTP/HTTPS
+•	Actúa como primera línea de defensa de seguridad
+2.	Load Balancer:
+•	Distribuye el tráfico entrante entre múltiples instancias
+•	Mejora la disponibilidad y escalabilidad
+•	Realiza health checks de los servicios
+3.	Ingress:
+•	Gestiona el acceso externo a los servicios en Kubernetes
+•	Maneja las reglas de enrutamiento HTTP/HTTPS
+•	Permite configurar SSL/TLS y virtual hosting
+4.	Frontend (Pods):
+•	Sirve la interfaz de usuario
+•	Maneja la lógica de presentación
+•	Se ejecuta en contenedores para facilitar la escalabilidad
+5.	Backend (Pods):
+•	Implementa la lógica de negocio
+•	Procesa las peticiones de los clientes
+•	Se comunica con la base de datos
+6.	Base de datos con réplicas:
+•	Almacena los datos de forma persistente
+•	Las réplicas proporcionan alta disponibilidad
+•	Permite balanceo de carga en lecturas
+7.	Blob Storage:
+•	Almacena archivos y objetos grandes
+•	Reduce la carga en la base de datos principal
+•	Mejor manejo de contenido estático
+8.	AKS (Azure Kubernetes Service):
+•	Gestiona el cluster de Kubernetes
+•	Automatiza el despliegue y escalado
+•	Facilita la administración de contenedores
+9.	Grafana:
+•	Monitorización y visualización de métricas
+•	Creación de dashboards personalizados
+•	Alertas y reportes del sistema
+10.	Container Registry:
+•	Almacena las imágenes Docker
+•	Gestiona versiones de contenedores
+•	Proporciona seguridad y control de acceso
+11.	CI/CD Pipeline:
+•	Automatiza el proceso de desarrollo y despliegue
+•	Ejecuta pruebas automáticas
+•	Garantiza la calidad del código
+12.	Bastion:
+•	Proporciona acceso seguro a la red
+•	Punto de entrada para administración
+•	Reduce la superficie de ataque
+13.	Virtual Network:
+•	Aísla y segmenta los recursos
+•	Controla el tráfico entre componentes
+•	Implementa políticas de red
+14.	DevOps:
+•	Implementa prácticas de automatización
+•	Facilita la colaboración entre equipos
+Esta arquitectura está diseñada para proporcionar:
+•	Alta disponibilidad
+•	Escalabilidad horizontal
+•	Seguridad en múltiples capas
+•	Facilidad de mantenimiento
+•	Monitorización completa
+•	Automatización de procesos
